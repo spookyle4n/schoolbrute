@@ -16,6 +16,7 @@ print('''
    
                tiktok jahsehrare
                insta: spookyle4n\033[36m
+               
 ''')
 e = input("[?] Your schoology email?: ")
 d = input("[?] Your schoology password? (bruteforce attack wont work without it): ")
