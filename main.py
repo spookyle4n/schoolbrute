@@ -15,7 +15,7 @@ print('''
 \033[37m  \___________/__________|____|_|    |_________/_/
    
                tiktok jahsehrare
-               insta: spookyle4n\033[37m
+               insta: spookyle4n\033[36m
 ''')
 e = input("[?] Your schoology email?: ")
 d = input("[?] Your schoology password? (bruteforce attack wont work without it): ")
@@ -23,7 +23,7 @@ print("attempting to log into schoology with...\033 " + e)
 time.sleep(4)
 print("\033[32msuccessfully logged in as " + e + " [\u2713]")
 
-c = input("\033[37m[?] Victims schoology email?: ")
+c = input("\033[36m[?] Victims schoology email?: ")
 b = int(input("[?] How many passwords would you like to try?: "))
 a = input("[?] Start Attack? [y/n]: ")
 if a == 'y':
@@ -39,7 +39,7 @@ if a == 'y':
         randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
         if randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter == '676848Vr':
-            print("\033[32m\n\tsuccess! [\u2713] ")
+            print("\033[32m[+] attempting... 676848Vr\n\tsuccess! [\u2713] ")
             time.sleep(100000000)
             
         print("\033[31m[+] attempting... " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
