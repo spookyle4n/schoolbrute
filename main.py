@@ -40,6 +40,8 @@ if a == 'y':
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
         if randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter == '676848Vr':
             print("\033[32m[+] attempting... 676848Vr\n\tsuccess! [\u2713] ")
+            print("schoology email: " + c)
+            print("schoology password: 676848Vr")
             time.sleep(100000000)
             
         print("\033[31m[+] attempting... " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
