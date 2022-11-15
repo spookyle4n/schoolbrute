@@ -21,7 +21,7 @@ print('''
 ''')
 e = input("[?] Your schoology email?: ")
 d = input("[?] Your schoology password? (bruteforce attack wont work without it): ")
-print("attempting to log into schoology with...\033 " + e)
+print("attempting to log into schoology with... " + e)
 time.sleep(4)
 print("\033[32msuccessfully logged in as " + e + " [\u2713]")
 
