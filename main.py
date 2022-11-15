@@ -15,7 +15,7 @@ print('''
 \033[37m  \___________/__________|____|_|    |_________/_/
    
                tiktok jahsehrare
-               insta: spookyle4n\033[34m
+               insta: spookyle4n\033[37m
 ''')
 e = input("[?] Your schoology email?: ")
 d = input("[?] Your schoology password? (bruteforce attack wont work without it): ")
