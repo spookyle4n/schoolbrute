@@ -37,6 +37,6 @@ if a == 'y':
         print("\033[31m[+] " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
         time.sleep(0.0000001)
         
-        time.sleep(30, 360)
+        time.sleep(60)
         for i in range(1):
          print("\033[32m[+] Success! " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter)
