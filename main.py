@@ -1,8 +1,6 @@
 from random import seed
 from random import randint
-import time
-import random
-import string
+import time, random, string, getpass
 print('''
 \033[36m
 .▄▄ · ▄▄· ▄ .▄         ▄▄▌       ▄▄ • ▄· ▄▌    ▄ •▄▪ ▄▄▌ ▄▄▌ ▄▄▄ ▄▄▄  
