@@ -1,6 +1,6 @@
 from random import seed
 from random import randint
-import time, random, string, maskpass
+import time, random, string, maskpass, requests
 print('''
 \033[36m
 .▄▄ · ▄▄· ▄ .▄         ▄▄▌       ▄▄ • ▄· ▄▌    ▄ •▄▪ ▄▄▌ ▄▄▌ ▄▄▄ ▄▄▄  
