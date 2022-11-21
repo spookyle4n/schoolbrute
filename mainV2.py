@@ -38,7 +38,7 @@ if a == 'y':
         time.sleep(0.0000001)
         
         time.sleep(randomnumber*10)
-        for i in range(1)
-        print(randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter
+        for i in range(1):
+         print(randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter
         
         
