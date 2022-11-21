@@ -25,7 +25,7 @@ a = input("[?] Start Attack? [y/n]: ")
 if a == 'y':
     print("\033[31m[!] Starting bruteforce on " + c)
     time.sleep(2)
-    for i in range(b/100):
+    for i in range(b/0.01):
         randomnumber = chr(random.randint(ord('0'), ord('9')))
         randomnumber2 = chr(random.randint(ord('0'), ord('9')))
         randomnumber3 = chr(random.randint(ord('0'), ord('9')))
