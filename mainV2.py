@@ -37,8 +37,3 @@ if a == 'y':
         randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
         print("\033[31m[+] " + randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter, flush=True)
         time.sleep(0.0000001)
-        
-        number = randomnumber*10
-        time.sleep(number)
-        for i in range(1):
-         print(randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter)
